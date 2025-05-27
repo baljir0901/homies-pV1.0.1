@@ -1,0 +1,98 @@
+/* === RecruitForm.css === */
+
+/* General Form Styling */
+.recruit-form {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Form Title */
+.recruit-form h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #227a3a;
+}
+
+.recruit-form p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Form Layout */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Labels */
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  display: block;
+}
+
+/* Inputs, Selects, and Textareas */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Align Checkboxes in a Row */
+.checkbox-group {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.checkbox-group label {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  background: #227a3a;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1b5e2f;
+}
+
+/* Responsive Fixes */
+@media (max-width: 600px) {
+  .recruit-form {
+    width: 90%;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 14px;
+  }
+}

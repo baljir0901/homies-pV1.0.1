@@ -1,0 +1,14 @@
+/* Center Align Recruitment Intro Text */
+.recruitment-intro {
+  text-align: center;
+  max-width: 700px;
+  margin-top: 100px; /* Centers the text block */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+/* Move "人材募集シート登録" Down Slightly */
+.recruit-form {
+  margin-top: 20px; /* Adjust this value as needed */
+}
