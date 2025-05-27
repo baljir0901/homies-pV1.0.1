@@ -46,7 +46,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} 株式会社HOMIES. All Rights Reserved. Version1.0.1</p>
+        <p>© {new Date().getFullYear()} 株式会社HOMIES. All Rights Reserved. Version1.0.2</p>
       </div>
     </footer>
   );
